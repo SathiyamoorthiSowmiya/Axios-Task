@@ -1,8 +1,21 @@
-# React + Vite
+# React CRUD App with Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This React app performs basic CRUD (Create, Read, Update, Delete) operations using Axios to interact with a mock API. It features a clean and responsive UI.
 
-Currently, two official plugins are available:
+## Instructions
+1. Clone the repository.
+2. Run `npm install` to install the dependencies.
+4. The application will be served at http://localhost:5179/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fetch user data from a mock API.
+- Add, edit, and delete user records.
+- Responsive UI for easy navigation.
+
+## Technologies
+- React
+- Axios
+- Mock API: https://jsonplaceholder.typicode.com/users
+
+Live Demo ==> https://reactapp-axios-tasks.netlify.app/
