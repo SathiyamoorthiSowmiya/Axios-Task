@@ -1,0 +1,46 @@
+.user-form {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .user-form h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #444;
+  }
+  
+  .user-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .user-form input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .user-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .user-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  

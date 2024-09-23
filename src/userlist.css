@@ -1,0 +1,91 @@
+.user-list {
+    flex: 2;
+  }
+  
+  .user-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .user-list thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .user-list th, .user-list td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-list tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  .user-list th {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  
+  .user-list td {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn {
+    background-color: #28a745;
+  }
+  
+  .edit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e60000;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .user-list table, .user-list thead, .user-list tbody, .user-list th, .user-list td, .user-list tr {
+      display: block;
+    }
+  
+    .user-list thead {
+      display: none;
+    }
+  
+    .user-list tr {
+      margin-bottom: 15px;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+  
+    .user-list td {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+    }
+  
+    .user-list td:before {
+      content: attr(data-label);
+      font-weight: 600;
+      color: #007bff;
+      margin-right: 10px;
+    }
+  }
+  
