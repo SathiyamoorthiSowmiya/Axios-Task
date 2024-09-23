@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import UserList from './userlist.jsx';
+import UserList from './userlist';
 import UserForm from './userform';
 import './App.css';
 
