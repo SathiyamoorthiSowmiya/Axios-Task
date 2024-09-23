@@ -1,5 +1,5 @@
 import React from 'react';
-import './userList.css';
+import './userlist.css';
 
 function UserList({ users, deleteUser, setEditUser }) {
   return (
