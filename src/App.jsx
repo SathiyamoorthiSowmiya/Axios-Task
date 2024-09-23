@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import UserList from './userlist.jsx';
-import UserForm from './UserForm';
+import userList from './userlist.jsx';
+import userForm from './userform.jsx';
+
 import './App.css';
 
 const API_URL = 'https://jsonplaceholder.typicode.com/users';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './UserList.css';
+import './userList.css';
 
 function UserList({ users, deleteUser, setEditUser }) {
   return (
@@ -23,7 +23,7 @@ function UserList({ users, deleteUser, setEditUser }) {
               <td>
 
                 <button className="edit-btn" onClick={() => setEditUser(user)}>Edit </button>
-                
+
                 <button className="delete-btn" onClick={() => deleteUser(user.id)}>Delete</button>
               </td>
             </tr>
