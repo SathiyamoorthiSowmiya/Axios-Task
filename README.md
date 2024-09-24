@@ -6,23 +6,18 @@ This React app performs basic CRUD (Create, Read, Update, Delete) operations usi
 ## Instructions
 1. Clone the repository.
 2. Run `npm install` to install the dependencies.
-4. The application will be served at http://localhost:5179/
-
-## Features
-
-View existing price cards with details such as per-item price, per-item quantity, total quantity, and total amount.
-Add new price cards with custom per-item price and quantity.
-Update per-item price and quantity for existing price cards.
-Delete price cards from the system.
-Dynamically update total quantity and total amount based on per-item quantity and price changes.
-Seamlessly manage price card operations using Redux for state management.
+3.  Start the app using `npm start`.
+  
+ ## Features
+- Fetch user data from a mock API.
+- Add, edit, and delete user records.
+- Responsive UI for easy navigation.
 
 ## Technologies
 - React
-- Redux
-- HTML5
-- CSS3
-- JavaScript 
-- Mock API: https://drive.google.com/file/d/1fOadeM1liwbUK38z92F0XYugk2jwqK2r/view?usp=share_link
+- Axios
+- Mock API: https://jsonplaceholder.typicode.com/users
 
-Live Demo ==>https://redux-pricecard.netlify.app/
+  Live Demo==>> https://reactapp-axios-tasks.netlify.app/
+
+
